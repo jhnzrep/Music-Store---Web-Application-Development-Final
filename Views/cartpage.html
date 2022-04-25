@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" defer></script>
+    <script src='./javascript/nav.js' defer></script>
+    <script src='./javascript/cart.js' defer></script>
+    <title>Cart</title>
+</head>
+<body>
+    <div class="main">
+        <div class="middletext" style="width: 100%;">
+            <div class="title"><h2 class="title">The Music Store</h2></div>
+            <h3>Welcome to your personal Cart</h3>
+            <div>
+                <button class="" id="cart">Cart</button>
+                <button class="" id="track">Tracks</button>
+                <button class="" id="album">Albums</button>
+            </div>
+        </div>
+        <div class="billing">
+            <p>Billing Address</p>
+            <input type="text" class="billingitem" id="BillingAddress">
+            <p>Billing City</p>
+            <input type="text" class="billingitem" id="BillingCity">
+            <p>Billing State</p>
+            <input type="text" class="billingitem" id="BillingState">
+            <p>Billing Country</p>
+            <input type="text" class="billingitem" id="BillingCountry">
+            <p>Billing Postal Code</p>
+            <input type="text" class="billingitem" id="BillingPostalCode">
+            <div class="purchase">
+                <div class="ptext column"><p><b>Total:</b></p><p id="total"></p></div>
+                <button id="purchase">Purchase</button>
+            </div>
+        </div>
+        <div id="results"></div>
+    </div>
+</body>
+</html>
